@@ -32,4 +32,8 @@ header2.innerText = "Welcome to the WHS Code Club Website.";
 header2.appendChild(header2_span);
 document.body.appendChild(header2);
 
-document.getElementById("image-holder").innerHTML = "<img src=./images/WHSCODE.phg alt='WHS Code Logo Image' width='300' height='300' />";
+let my_image = document.createElement('img')
+my_image.setAttribute("src", "./images/WHSCODE.png");
+my_image.setAttribute("width", "300");
+my_image.setAttribute("height", "300");
+document.body.appendChild(my_image);
