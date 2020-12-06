@@ -23,17 +23,22 @@ let my_span = document.createElement('span');
 let header2 = document.createElement('h2');
 let header2_span = document.createElement('span');
 
+let my_image = document.createElement('img');
+
 // Page Objects
-my_span.innerText = "Hello, World.";
-my_element.appendChild(my_span);
-document.body.appendChild(my_element);
 
-header2.innerText = "Welcome to the WHS Code Club Website.";
-header2.appendChild(header2_span);
-document.body.appendChild(header2);
-
-let my_image = document.createElement('img')
+// Logo
 my_image.setAttribute("src", "./images/WHSCODE.png");
 my_image.setAttribute("width", "300");
 my_image.setAttribute("height", "300");
 document.body.appendChild(my_image);
+
+// Hello World
+my_span.innerText = "Hello, World.";
+my_element.appendChild(my_span);
+document.body.appendChild(my_element);
+
+// Welcome Message
+header2.innerText = "Welcome to the WHS Code Club Website.";
+header2.appendChild(header2_span);
+document.body.appendChild(header2);
