@@ -22,9 +22,7 @@ let my_span = document.createElement('span');
 let header2 = document.createElement('h2');
 let header2_span = document.createElement('span');
 let my_image = document.createElement('img');
-let myCaveGame = document.createElement('script');
-let myCaveLink = 'https://onlinegdb.com/rJX8vhqsw';
-// let myCaveGameHeaderAlertText = document.createElement('h3');
+let myCaveLink = document.createElement('a');
 
 // Page Objects
 
@@ -45,10 +43,5 @@ header2.appendChild(header2_span);
 document.body.appendChild(header2);
 
 // Cave Game Link
-// myCaveGameHeaderAlertText.innerText("This is our game. It is a text adventure \
-//     about a cave. Note: You must use Desktop Firefox to run this code. \
-//     If it doesn't work, try clicking the link.");
-// document.body.appendChild(myCaveGameHeaderAlertText);
-document.getElementById('cavelink').innerHTML ='<a href"' + myCaveLink + '">Cave Game Link</a>';
-myCaveGame.setAttribute("src", "https://onlinegdb.com/embed/js/G7QcxAC85?theme=undefined");
-document.body.appendChild(myCaveGame);
+myCaveLink.setAttribute("href", "https://onlinegdb.com/BJFYAn5sP");
+document.body.appendChild(myCaveLink);
