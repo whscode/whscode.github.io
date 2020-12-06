@@ -45,8 +45,8 @@ header2.appendChild(header2_span);
 document.body.appendChild(header2);
 
 // Cave Game Link
-myCaveGameHeaderAlertText.innerText("This is our game. It is a text adventure \<br>\
-    about a cave. Note: You must use Desktop Firefox to run this code. \<br>\
+myCaveGameHeaderAlertText.innerText("This is our game. It is a text adventure \
+    about a cave. Note: You must use Desktop Firefox to run this code. \
     If it doesn't work, try clicking the link.");
 document.body.appendChild(myCaveGameHeaderAlertText);
 myCaveGameHeader.setAttribute("href", "https://onlinegdb.com/rJX8vhqsw");
