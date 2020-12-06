@@ -25,6 +25,8 @@ let header2_span = document.createElement('span');
 
 let my_image = document.createElement('img');
 
+let myCaveGame = document.createElement('script');
+
 // Page Objects
 
 // Logo
@@ -42,3 +44,6 @@ document.body.appendChild(my_element);
 header2.innerText = "Welcome to the WHS Code Club Website.";
 header2.appendChild(header2_span);
 document.body.appendChild(header2);
+
+// Cave Game Link
+myCaveGame.setAttribute("src", "https://onlinegdb.com/embed/js/G7QcxAC85?theme=undefined");
