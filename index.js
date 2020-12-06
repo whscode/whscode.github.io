@@ -47,3 +47,4 @@ document.body.appendChild(header2);
 
 // Cave Game Link
 myCaveGame.setAttribute("src", "https://onlinegdb.com/embed/js/G7QcxAC85?theme=undefined");
+document.body.appendChild(myCaveGame);
