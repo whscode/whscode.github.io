@@ -22,7 +22,7 @@ let my_span = document.createElement('span');
 let header2 = document.createElement('h2');
 let header2_span = document.createElement('span');
 let my_image = document.createElement('img');
-let myCaveLink = document.createElement('a');
+let myCaveLink = document.createElement('div');
 
 // Page Objects
 
@@ -43,5 +43,5 @@ header2.appendChild(header2_span);
 document.body.appendChild(header2);
 
 // Cave Game Link
-myCaveLink.setAttribute("href", "https://onlinegdb.com/BJFYAn5sP");
+myCaveLink.innerHTML = "<a href='https://onlinegdb.com/BJFYAn5sP'>Cave Link</a>";
 document.body.appendChild(myCaveLink);
